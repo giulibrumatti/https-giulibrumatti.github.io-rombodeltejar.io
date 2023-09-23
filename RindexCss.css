@@ -45,6 +45,10 @@
 }
 
 .title-logo{
+    color: #FAF2D3;
+}
+
+.title-logo-cont{
     color: black;
 }
 
@@ -60,3 +64,25 @@
     height: 32px;
     margin-left: 20px;
 }
+
+@media (max-width: 600px) {
+
+    .title-logo{
+        font-size: 15px;
+    }
+
+    *{
+        font-size: 10px;
+    }
+
+    .img-icons{
+        width: 30px;
+    }
+  }
+
+  @media (min-width: 700px) {
+    iframe{
+      width: 600px;
+      height: 450px;
+    }
+  }
